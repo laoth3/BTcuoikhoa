@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f8fc;
+    color: #333;
+  }
+  
+  header {
+    background-color: #007BFF; /* xanh nước biển */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .banner {
+    background: linear-gradient(45deg, #FF4136, #FFDC00); /* đỏ và vàng */
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .banner h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  .banner p {
+    font-size: 1.2em;
+  }
+  
+  .banner button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .product-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .hot-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+  }
+  
+  .product-card h3 {
+    margin: 10px 0 5px;
+  }
+  
+  .rating {
+    color: #FFD700;
+  }
+  
+  .product-card button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #FFDC00;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .ranking {
+    padding: 20px;
+    background-color: #FFF8DC;
+  }
+  
+  .ranking h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .ranking .rank-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px 0;
+    font-size: 1.1em;
+  }
+  
+  .reasons,
+  .subscribe {
+    padding: 20px;
+    background-color: #e6f0ff;
+  }
+  
+  .reasons ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .reasons li {
+    margin-bottom: 8px;
+    font-size: 1em;
+  }
+  
+  .subscribe input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .subscribe button {
+    padding: 10px 20px;
+    background-color: #FFDC00;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #FFDC00;
+    text-decoration: none;
+  }
+  
